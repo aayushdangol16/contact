@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans",sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    /*1rem=10px*/
+    overflow-x:hidden ;
+}
+body{
+    background:black;
+    overflow-x: hidden;
+}
+.con {
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(106, 248, 106);
+    margin-left: 100px;
+    font-size: 18px;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .contact-us {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .contact-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-contact{
+    background-color: rgb(46, 46, 46);
+    width: 50%;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    position: relative; /* Added for positioning the h3 element */
+    overflow: auto;
+  }
+  .middle-contact{
+    width: 30%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 0px;
+    position: relative; /* Added for positioning the h3 element */
+    right: 170px;
+    top: 20px;
+    overflow: hidden;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    height: 70px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  input::placeholder,
+  textarea::placeholder {
+  font-size: 18px;
+  }
+  .middle-contact img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+.fb img{
+    position: relative; /* Added for positioning the h3 element */
+    left:580px;
+    bottom:300px;
+}
+.insta img{
+    position: relative; /* Added for positioning the h3 element */
+    left:580px;
+    bottom:270px;
+}
+.email img{
+    position: relative; /* Added for positioning the h3 element */
+    left:580px;
+    bottom:240px;
+}
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #777;
+    margin: 0;
+  }
+  
+  
+  
+  
+  
